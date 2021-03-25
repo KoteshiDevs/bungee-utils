@@ -18,7 +18,7 @@ import net.md_5.bungee.api.plugin.Plugin;
 import java.util.Arrays;
 
 @Getter
-public final class BungeeUtilsPlugin extends Plugin {
+public class BungeeUtilsPlugin extends Plugin {
 
     private BungeeHandler bungeeHandler;
     private ChatHandler chatHandler;
