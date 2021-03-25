@@ -43,7 +43,7 @@ public class BungeeUtilsPlugin extends Plugin {
         // Plugin shutdown logic
     }
 
-    public void registerCommand() {
+    private void registerCommand() {
         new ChatCommand(this);
         new LobbyCommand(this);
         new ReportCommand(this);
@@ -51,7 +51,7 @@ public class BungeeUtilsPlugin extends Plugin {
         new FinishCommand(this);
     }
 
-    public void registerListener() {
+    private void registerListener() {
         Arrays.asList(
                 new ChatListener(this),
                 new PlayerDisconnectListener(this)
